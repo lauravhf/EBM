@@ -1,0 +1,7 @@
+/* Override carousel text defaults (screen only) */
+@media screen and (min-width: 768px) {
+	.carousel-caption-right {
+		left: 60%;
+		right: 10%;
+	}
+}
