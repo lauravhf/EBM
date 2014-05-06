@@ -7,5 +7,26 @@
 }
 
 .image-full-width {
-	width:100%;
+	width:95%;
 }
+
+.carousel-inner > .item > img.move-image-up {
+	top: 70px;
+}
+ 
+
+@media only screen and (min-width:900px){
+.col-md-15{
+height: 280px;
+}
+
+@media only screen and (min-width:900px){
+.col-md-7{
+width: 20%;
+}
+
+@media only screen and (min-width:300px){
+.col-md-6{
+width: 35%;
+}
+
