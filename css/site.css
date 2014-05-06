@@ -1,3 +1,41 @@
+body {
+	padding-top: 103px;
+	font-family: 'quicksandregular';
+}
+
+.navbar {
+	font-family: 'quicksandbold';	
+}
+.navbar .navbar-brand img {
+	height: 70px;
+}
+.navbar .navbar-brand span {
+	color: black;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+.navbar li>a {
+	padding-top: 66px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	color: black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background: transparent;
+	
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+
 /* Override carousel text defaults (screen only) */
 @media screen and (min-width: 768px) {
 	.carousel-caption-right {
@@ -12,6 +50,10 @@
 
 .carousel-inner > .item > img.move-image-up {
 	top: 70px;
+}
+
+.carousel-control {
+	background-image: none !important;
 }
  
 
