@@ -39,13 +39,18 @@ body {
 /* Override carousel text defaults (screen only) */
 @media screen and (min-width: 768px) {
 	.carousel-caption-right {
-		left: 60%;
+		top: 0%;
+		left: 50%;
 		right: 10%;
 	}
 }
 
 .image-full-width {
 	width:95%;
+}
+
+.image-width {
+	width:90%;
 }
 
 .carousel-inner > .item > img.move-image-up {
@@ -55,20 +60,58 @@ body {
 .carousel-control {
 	background-image: none !important;
 }
+
+.carousel-caption {
+	text-align:left;
+	text-shadow: none;
+}
+	
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+	color: black !important;
+}
  
 
-@media only screen and (min-width:900px){
-.col-md-15{
-height: 280px;
+@media only screen and (min-width:100px){
+	.col-md-8{
+		width: 50%;
+		padding-left: 110px;
+	}
+}
+@media only screen and (min-width:100px){
+	.col-md-4{
+		height: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
-@media only screen and (min-width:900px){
-.col-md-7{
-width: 20%;
+@media only screen and (min-width:100px){
+	.col-md-5{
+		width: 25%;
+		padding-left: 120px;
+		padding-right: 30px;
+	}
 }
 
-@media only screen and (min-width:300px){
-.col-md-6{
-width: 35%;
+@media only screen and (min-width:100px){
+	.col-md-12{
+		padding-left: 120px;
+		padding-right: 100px;
+	}
+}
+
+
+
+
+.lead {
+	font-size: 1.8rem;
+}
+
+.small-font {
+	font-size: 1.5rem;
+}
+
+.btn-wrap {
+	white-space:normal !important;
 }
 
