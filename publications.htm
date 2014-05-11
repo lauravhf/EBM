@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="http://web.mit.edu/favicon.ico">
 
     <title>Carousel Template for Bootstrap</title>
 
@@ -58,31 +58,21 @@
       </div>
     </div>
 
+<!--Start listing the publications-->
 
+ <div class="container">
 
   <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading" > <br> <b> Academic articles <a href="#popular press">Popular press</a></b> <span class="lead small-font"></span></h2>
-          <p class="lead">     
+          <h2 class="featurette-heading" > <br> <b> Academic articles <a href="#popular press">Popular press</a></b> <span class="lead small-font"><a href="#pre-env">Pre-environmental publications</a></span></h2>
+          <p class="lead"></ol><p style="line-height: 150%" align="justify"><b><ol>
+            <li> <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
+            <font face="Arial" size="2">Gutowski T.G., Sahni S., Allwood J., Ashby M., Worrell E.,&nbsp; “<b>The Energy Required to Produce Materials: Constraints on Energy Intensity Improvements, Parameters of Demand,"</b> Phil. Trans. R. Soc. A.; (<a href="Publications/energy_required.pdf">pdf available</a>)</p></li>
 
-            </ol>
-
-
-    <p style="line-height: 150%" align="justify"><b>
-        <ol>
-
-<li>
-    <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
-    <font face="Arial" size="2">Gutowski T.G., Sahni S., Allwood J., Ashby M., Worrell E.,&nbsp; “<b>The Energy Required to Produce Materials: Constraints on Energy Intensity Improvements, Parameters of Demand,"</b> Phil. Trans. R. Soc. A.; (<a href="Publications/energy_required.pdf">pdf available</a>)</p>
-
-</li>
-
-
-<li>
-    <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
-    <font face="Arial" size="2">Dittrich M, Gutowski T.G., Cao J., Roth J.T., Xia C., Kiridena V., Ren F. Henning H.&nbsp; “<b>Exergy Analysis of Incremental Sheet Forming,"</b> accepted for publishing in Production Engineering Research and Development; (<a href="Publications/Marc_Paper.pdf">pdf available</a>)</p>
-
-</li>
+            <li>
+            <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
+            <font face="Arial" size="2">Dittrich M, Gutowski T.G., Cao J., Roth J.T., Xia C., Kiridena V., Ren F. Henning H.&nbsp; “<b>Exergy Analysis of Incremental Sheet Forming,"</b> accepted for publishing in Production Engineering Research and Development; (<a href="Publications/Marc_Paper.pdf">pdf available</a>)</p>
+            </li>
 
 
 <li>
@@ -650,15 +640,16 @@ and Materials Recycling,''</b> Annual Review of Environment and Resources. 2013.
     available</a>)</font></p>
           </li>
         </ol>
+</div>
 
-
-
+  <div class="row featurette">
+        <div class="col-md-12">
 
 
     <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
     &nbsp;</p>
     <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
-    <b><font face="Arial" size="4" color="#993333">Pre- ENVIRONMENTAL PUBLICATIONS</font></b></p>
+    <b><font face="Arial" size="4" color="#993333"><h2 class="featurette-heading" > <b> <a name="pre-env">Pre- ENVIRONMENTAL PUBLICATIONS</a> </b> <span class="lead small-font"></b></p>
         <ol>
           <li>
     <p class="MsoNormal" style="margin-left:.5in;text-indent:-.5in">
@@ -1250,6 +1241,7 @@ and Materials Recycling,''</b> Annual Review of Environment and Resources. 2013.
 &nbsp;</font></p>
           </li>
 
+            </div>   </div>   
              </div>
 
 
@@ -1451,7 +1443,13 @@ and Materials Recycling,''</b> Annual Review of Environment and Resources. 2013.
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+      $(document).ready(function() {
+           $('.carousel').carousel({
+               interval: 4000
+           })
+      });    
+    </script>
   </body>
 </html>
